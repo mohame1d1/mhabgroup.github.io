@@ -1,0 +1,42 @@
+<?php
+  
+  function metas() {
+   
+    return [
+             'DASHBOARD'=> 'Dashboard',
+             'ADVERTISING_DASHBOARD'=> 'Advertising Dashboard',
+             'ANNOUNCEMENTS'=> 'Announcements',
+             'FAQ'=> 'FAQ',
+             'FAUCET'=> 'Faucet',
+             'INVOICES'=> 'Invoices',
+             'NOTIFICATIONS'=> 'Notifications',
+             'ORDERS'=> 'Orders',
+             'CHANGE_YOUR_PASSWORD'=> 'Change Your Password',
+             'REFERRALS'=> 'Referrals',
+             'PTC'=> 'PTC',
+             'PTC_ADS'=> 'PTC Ads',
+             'ORDER_PTC'=> 'Order PTC',
+             'GENERATE_ADDRESS'=> 'Generate Address...',
+             'QA'=> 'QA',
+             'ANSWER_QUESTION'=> 'Answer Question',
+             'SHORTLINKS'=> 'Shortlinks',
+             'SETTINGS'=> 'Settings',
+             'SUPPORT'=> 'Support',
+             'DEPOSIT'=> 'Deposit',
+             'CHECKOUT'=> 'Checkout',
+             'POINTS_REWARDS'=> 'Points Rewards',
+             'WITHDRAW'=> 'Withdraw',
+             'WITHDRAWALS_HISTORY'=> 'Withdrawals History',
+             'LATEST_WITHDRAWALS'=> 'Latest withdrawals',
+             'PAGE_NOT_FOUND'=> 'Page Not Found',
+             'CSRF_TOKEN_MISMATCH'=> 'CSRF token mismatch',
+             'COINPAYMENTS_SETUP'=> 'Coinpayments Setup',
+             'ADD_SHORTLINKS'=> 'Add Shortlinks',
+             'COINBASE_SETUP'=> 'Coinbase Setup',
+             'SMTP_GMAIL_SETUP'=> 'SMTP Gmail Setup',
+             'SIGN_IN'=> 'Sign In',
+             'SIGN_UP'=> 'Sign Up',
+             'FORGOT_YOUR_PASSWORD'=> 'Forgot Your Password',
+             'WITHDRAWALS_HISTORY'=> 'Withdrawals History',
+            ];
+  }
