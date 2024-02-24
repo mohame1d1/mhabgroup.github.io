@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>PHP Unzipper</title>
+<meta name="description" content="Small PHP script to extract .zip, .gz, .rar archives, and compress .zip archive via browser. from: http://coursesweb.net/ " />
+<style>
+body, html {background-color:#fdfdfd;margin:1px 4px;padding:0;font-size:17px;font-family:"Calibri",sans-serif;}
+.sb {font-weight:700;}
+.su {text-decoration:underline;}
+.sbi {font-weight:700;font-style:oblique;}
+.si {font-style:oblique;}
+.cb {color:#0000eb;}
+.cr {color:#eb0000;}
+h1 {text-align:center;}
+h1, h3, h4 {
+ margin:1em;
+ text-decoration:underline;
+}
+pre {width:99%;max-height:550px;background:#fefebb;font-size:15px; font-weight:bold; color:blue;padding:3px 4px;overflow:auto;}
+blockquote {background:#ebebfe;padding:2px 3px;font-size:17px;}
+#mp {
+ display:block;
+ margin:1.5em auto;
+ text-align:center;
+}
+</style>
+</head>
+<body>
+<h1>PHP Unzipper</h1>
+The Unzipper is <strong>a PHP script that extracts .zip, .rar or .gz archives</strong> on webservers.<br>
+It detects .zip/.rar/.gz archives and let you choose which one to extract (if there are multiple archives available). It also supports creating Zip archives.<br>
+- It is useful if you not have access to a File-Manager, and you want to upload a lot of files (php framework or image collection) as archive.
+<h4>Requirements</h4>
+- PHP 5.3 and newer.<br>
+- PHP Rar extension (needed only if you want to extract Rar archive).
+<h4>Usage</h4>
+1. Copy the "<span class="sb">unzipper.php</span>" file on your server (in the folder where you have the archive).<br>
+2. Access the "unzipper.php" in your browser.<br>
+ - To extract a Zip/Rar archive, it must be in the same folder where you have the "unzipper.php" file.<br>
+3. Choose .zip, .rar archive or .gz file you want to extract, and click on the "Unzip Archive" button.
+<h4>Screenshot</h4>
+<img src="unzipper.png" style="width:95%;max-width:850px;display:block;margin:8px auto 35px auto;" />
+ &bull; Scipt Page: <a href="https://github.com/ndeet/unzipper" title="PHP Unzipper">https://github.com/ndeet/unzipper</a><br><br>
+</body>
+</html>
